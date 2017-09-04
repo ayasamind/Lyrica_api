@@ -3,7 +3,7 @@ module API
     class Songs < Grape::API
       resource :songs do
         get do
-          present Songs.all, with: Entity::V1::SongsEntity
+          present Song.all, with: Entity::V1::SongsEntity
         end
       end
     end
