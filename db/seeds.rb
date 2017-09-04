@@ -14,24 +14,6 @@ Song.create(
     :song_name => 'sample', 
     :album_id => '2', 
     :artist_id => '2', 
-    :lyrics_data => '{"lines": [
-{
-"time": 24540, 
-"words": [
-{
-"end": 26140, 
-"start": 24540, 
-"string": "ざわめい"
-}, 
-{
-"end": 26600, 
-"start": 26170, 
-"string": "た"
-}, 
-{
-"end": 27530, 
-"start": 26630, 
-"string": "街"
-}]}', 
+    :lyrics_data => '{"lines":[{"time":24540,"words":[{"end":26140,"start":24540,"string":"ざわめい"},{"end":26600,"start":26170,"string":"た"},{"end":27530,"start":26630,"string":"街"}]}', 
     :youtube_id => 'sample', 
     :youtube_start => '50')
